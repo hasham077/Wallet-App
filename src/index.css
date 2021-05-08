@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+
+/* base styles */
+* {
+  font-family: "Quicksand";
+  color: #333;
+}
+
+.signin {
+  max-width: 400px;
+  margin: 0 auto;
+  padding-top: 50px;
+
+  text-align: center;
+}
+.actions nav {
+  margin-bottom: 60px;
+}
+.actions {
+  max-width: 750px;
+  height: 590px;
+  margin: 0 auto;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  display: block;
+  text-align: center;
+  box-shadow: 1px 0.6px 6px #352d2f;
+}
+
+.actions a {
+  width: 150px;
+  height: 50px;
+  margin: 10px;
+  text-decoration: none;
+  display: inline;
+}
+
+.actions nav a:hover {
+  color: #f1356d;
+}
+.signin h3,
+h1 {
+  color: #f1356d;
+}
+.signin label,
+.Withdraw label {
+  text-align: left;
+  display: block;
+}
+
+.signin input,
+.Withdraw input {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+
+.signin button,
+.Withdraw button {
+  background: #f1356d;
+  width: 180px;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.signin a {
+  text-decoration: none;
+}
+h4 a {
+  text-decoration: none;
+  color: #f1356d;
+  font-size: large;
+}
+
+.signin legend,
+.Withdraw legend {
+  text-align: left;
+  font-size: 25px;
+  color: #f1356d;
+  font-style: bold;
+}
+
+.signup {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+.signup button a,
+.signin button a,
+.Withdraw button a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.signup label {
+  text-align: left;
+  display: block;
+}
+
+.signup input {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+
+.signup button {
+  background: #f1356d;
+  width: 90px;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.signup a {
+  text-decoration: none;
+}
+
+.signup legend {
+  text-align: left;
+  font-size: 25px;
+  color: #f1356d;
+  font-style: bold;
+}
+
+.Withdraw form {
+  margin: auto;
+  width: 500px;
+}
